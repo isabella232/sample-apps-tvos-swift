@@ -1,0 +1,6 @@
+framework module Pods_NPO_LiveUITests {
+  umbrella header "Pods-NPO LiveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
