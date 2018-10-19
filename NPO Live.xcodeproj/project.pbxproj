@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B753AB52179E84400DFC115 /* NPO_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753AB42179E84400DFC115 /* NPO_LiveTests.swift */; };
+		1B753AC32179E84A00DFC115 /* NPO_LiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753AC22179E84A00DFC115 /* NPO_LiveUITests.swift */; };
 		511C0F501C06387700B15BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511C0F4E1C06387700B15BDA /* AppDelegate.swift */; };
 		511C0F511C06387700B15BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511C0F4F1C06387700B15BDA /* Assets.xcassets */; };
 		511C0F551C06388D00B15BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511C0F521C06388D00B15BDA /* Main.storyboard */; };
@@ -19,7 +21,30 @@
 		93AF11B91F18BA05005043DB /* Pods_NPO_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF4D1674025305B1531E95D /* Pods_NPO_Live.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1B753AB72179E84400DFC115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5123DB7E1C008A1A00F86B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5123DB851C008A1A00F86B26;
+			remoteInfo = "NPO Live";
+		};
+		1B753AC52179E84A00DFC115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5123DB7E1C008A1A00F86B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5123DB851C008A1A00F86B26;
+			remoteInfo = "NPO Live";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1B753AB22179E84400DFC115 /* NPO LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPO LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B753AB42179E84400DFC115 /* NPO_LiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPO_LiveTests.swift; sourceTree = "<group>"; };
+		1B753AB62179E84400DFC115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B753AC02179E84A00DFC115 /* NPO LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPO LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B753AC22179E84A00DFC115 /* NPO_LiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPO_LiveUITests.swift; sourceTree = "<group>"; };
+		1B753AC42179E84A00DFC115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D473A8CFCE3B5A086B71258 /* Pods-NPO Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPO Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPO Live/Pods-NPO Live.release.xcconfig"; sourceTree = "<group>"; };
 		511C0F4E1C06387700B15BDA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		511C0F4F1C06387700B15BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +62,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B753AAF2179E84400DFC115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B753ABD2179E84A00DFC115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5123DB831C008A1A00F86B26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,10 +87,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B753AB32179E84400DFC115 /* NPO LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B753AB42179E84400DFC115 /* NPO_LiveTests.swift */,
+				1B753AB62179E84400DFC115 /* Info.plist */,
+			);
+			path = "NPO LiveTests";
+			sourceTree = "<group>";
+		};
+		1B753AC12179E84A00DFC115 /* NPO LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B753AC22179E84A00DFC115 /* NPO_LiveUITests.swift */,
+				1B753AC42179E84A00DFC115 /* Info.plist */,
+			);
+			path = "NPO LiveUITests";
+			sourceTree = "<group>";
+		};
 		5123DB7D1C008A1A00F86B26 = {
 			isa = PBXGroup;
 			children = (
 				5123DB881C008A1A00F86B26 /* NPO Live */,
+				1B753AB32179E84400DFC115 /* NPO LiveTests */,
+				1B753AC12179E84A00DFC115 /* NPO LiveUITests */,
 				5123DB871C008A1A00F86B26 /* Products */,
 				7B0DBED132F02AE30031C0B2 /* Pods */,
 				947374420EE0AC472B9668D5 /* Frameworks */,
@@ -62,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				5123DB861C008A1A00F86B26 /* NPO Live.app */,
+				1B753AB22179E84400DFC115 /* NPO LiveTests.xctest */,
+				1B753AC02179E84A00DFC115 /* NPO LiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +196,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B753AB12179E84400DFC115 /* NPO LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B753ABB2179E84400DFC115 /* Build configuration list for PBXNativeTarget "NPO LiveTests" */;
+			buildPhases = (
+				1B753AAE2179E84400DFC115 /* Sources */,
+				1B753AAF2179E84400DFC115 /* Frameworks */,
+				1B753AB02179E84400DFC115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B753AB82179E84400DFC115 /* PBXTargetDependency */,
+			);
+			name = "NPO LiveTests";
+			productName = "NPO LiveTests";
+			productReference = 1B753AB22179E84400DFC115 /* NPO LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B753ABF2179E84A00DFC115 /* NPO LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B753AC72179E84A00DFC115 /* Build configuration list for PBXNativeTarget "NPO LiveUITests" */;
+			buildPhases = (
+				1B753ABC2179E84A00DFC115 /* Sources */,
+				1B753ABD2179E84A00DFC115 /* Frameworks */,
+				1B753ABE2179E84A00DFC115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B753AC62179E84A00DFC115 /* PBXTargetDependency */,
+			);
+			name = "NPO LiveUITests";
+			productName = "NPO LiveUITests";
+			productReference = 1B753AC02179E84A00DFC115 /* NPO LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5123DB851C008A1A00F86B26 /* NPO Live */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5123DB951C008A1A00F86B26 /* Build configuration list for PBXNativeTarget "NPO Live" */;
@@ -161,10 +258,23 @@
 		5123DB7E1C008A1A00F86B26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Bart den Hollander";
 				TargetAttributes = {
+					1B753AB12179E84400DFC115 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 72SA8V3WYL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5123DB851C008A1A00F86B26;
+					};
+					1B753ABF2179E84A00DFC115 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 72SA8V3WYL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5123DB851C008A1A00F86B26;
+					};
 					5123DB851C008A1A00F86B26 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 72SA8V3WYL;
@@ -186,11 +296,27 @@
 			projectRoot = "";
 			targets = (
 				5123DB851C008A1A00F86B26 /* NPO Live */,
+				1B753AB12179E84400DFC115 /* NPO LiveTests */,
+				1B753ABF2179E84A00DFC115 /* NPO LiveUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B753AB02179E84400DFC115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B753ABE2179E84A00DFC115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5123DB841C008A1A00F86B26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +377,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B753AAE2179E84400DFC115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B753AB52179E84400DFC115 /* NPO_LiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B753ABC2179E84A00DFC115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B753AC32179E84A00DFC115 /* NPO_LiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5123DB821C008A1A00F86B26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,7 +409,130 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1B753AB82179E84400DFC115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5123DB851C008A1A00F86B26 /* NPO Live */;
+			targetProxy = 1B753AB72179E84400DFC115 /* PBXContainerItemProxy */;
+		};
+		1B753AC62179E84A00DFC115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5123DB851C008A1A00F86B26 /* NPO Live */;
+			targetProxy = 1B753AC52179E84A00DFC115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1B753AB92179E84400DFC115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NPO LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.NPO-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPO Live.app/NPO Live";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		1B753ABA2179E84400DFC115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NPO LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.NPO-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPO Live.app/NPO Live";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		1B753AC82179E84A00DFC115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NPO LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.NPO-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "NPO Live";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		1B753AC92179E84A00DFC115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NPO LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.NPO-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "NPO Live";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
 		5123DB931C008A1A00F86B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +680,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B753ABB2179E84400DFC115 /* Build configuration list for PBXNativeTarget "NPO LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B753AB92179E84400DFC115 /* Debug */,
+				1B753ABA2179E84400DFC115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B753AC72179E84A00DFC115 /* Build configuration list for PBXNativeTarget "NPO LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B753AC82179E84A00DFC115 /* Debug */,
+				1B753AC92179E84A00DFC115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5123DB811C008A1A00F86B26 /* Build configuration list for PBXProject "NPO Live" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
