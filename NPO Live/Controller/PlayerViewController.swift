@@ -17,6 +17,7 @@ class PlayerViewController: AVPlayerViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if channel == nil { return }
         guard let url = channel.url else { return }
         let playerItem = AVPlayerItem(url: url)
 
